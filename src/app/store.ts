@@ -1,5 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-// creates a redux store and enables devtools that allows for inspection while developing
+export const store = configureStore({ reducer: {} });
 
-export default configureStore({ reducer: {} })
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;
