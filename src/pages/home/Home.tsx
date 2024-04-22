@@ -10,6 +10,7 @@ const Home = () => {
           {categories.map((category) => (
             <a
               href={category.link}
+              key={category.name}
               className="flex items-center justify-between hover:text-blue-900"
             >
               <p>{category.name}</p>
