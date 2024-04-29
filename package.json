@@ -3,7 +3,7 @@
   "private": true,
   "license": "MIT",
   "version": "0.0.1",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -19,7 +19,7 @@
     "@reduxjs/toolkit": "^2.2.3",
     "formik": "^2.4.5",
     "formik-mui": "^5.0.0-alpha.0",
-    "react": "^18.2.0",
+    "react": "^18.3.1",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^5.1.0",
