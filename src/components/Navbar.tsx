@@ -2,7 +2,10 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-8 py-2">
       <div className="flex w-[50%] items-center justify-between space-x-16">
-        <a href="/" className="text-4xl text-blue-900">
+        <a
+          href="/"
+          className="font-montserrat text-4xl font-semibold text-blue-900"
+        >
           eShop
         </a>
         <input

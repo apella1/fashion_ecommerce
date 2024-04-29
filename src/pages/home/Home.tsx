@@ -1,11 +1,12 @@
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import { categories } from "../../data/categories";
 
 const Home = () => {
   return (
-    <section className="p-4 flex flex-col">
+    <section className="flex flex-col">
       <Header />
-      <section className="grid grid-cols-3 p-10 gap-6">
+      <section className="grid min-h-screen grid-cols-3 gap-6 p-10">
         <section className="flex flex-col space-y-3 px-4">
           {categories.map((category) => (
             <a
@@ -24,6 +25,7 @@ const Home = () => {
           <p>Other Section</p>
         </div>
       </section>
+      <Footer />
     </section>
   );
 };
