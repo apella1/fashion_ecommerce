@@ -1,32 +1,25 @@
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center py-2 px-8">
-      <div className="flex justify-between items-center space-x-4">
-        <a href="/" className="text-blue-900 text-4xl">
-          MyShop
+    <nav className="flex items-center justify-between px-8 py-2">
+      <div className="flex w-[50%] items-center justify-between space-x-16">
+        <a href="/" className="text-4xl text-blue-900">
+          eShop
         </a>
-        <form action="" className="flex items-center justify-between space-x-2">
-          <input
-            type="text"
-            placeholder="Search products, categories"
-            className="p-2 rounded-md border border-gray-600 w-auto"
-          />
-          <input
-            type="submit"
-            value="Search"
-            className="p-2 bg-blue-900 text-white rounded-md"
-          />
-        </form>
+        <input
+          type="text"
+          placeholder="Search products, categories"
+          className="w-full rounded-md border border-gray-600 p-2"
+        />
       </div>
-      <div className="flex items-center p-4 space-x-4">
-        <div className="flex items-center justify-between hover:text-blue-900">
+      <div className="flex items-center space-x-4 p-4">
+        <div className="flex items-center justify-between space-x-2 hover:text-blue-900">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6"
+            className="h-6 w-6"
           >
             <path
               strokeLinecap="round"
@@ -41,7 +34,7 @@ const Navbar = () => {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-4 h-4"
+            className="h-4 w-4"
           >
             <path
               strokeLinecap="round"
@@ -58,7 +51,7 @@ const Navbar = () => {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6"
+            className="h-6 w-6"
           >
             <path
               strokeLinecap="round"

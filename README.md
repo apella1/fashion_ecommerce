@@ -53,3 +53,5 @@
 2. Run `yarn` to install the project dependencies.
 3. Run `yarn dev` to start the development server and open the application in your browser.
 4. Run `yarn test` to run the test suite on the terminal or `yarn test:ui` to run the test suite on both the browser and the terminal.
+
+## Screenshots
