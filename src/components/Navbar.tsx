@@ -2,10 +2,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-8 py-6">
       <div className="flex w-[50%] items-center justify-between space-x-16">
-        <a
-          href="/"
-          className="font-montserrat text-4xl font-semibold text-blue-900"
-        >
+        <a href="/" className="font-montserrat text-4xl font-semibold">
           eShop
         </a>
         <input
@@ -15,7 +12,7 @@ const Navbar = () => {
         />
       </div>
       <div className="flex items-center space-x-4 p-4">
-        <div className="flex items-center justify-between space-x-2 hover:text-blue-900">
+        <div className="flex items-center justify-between space-x-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -47,7 +44,7 @@ const Navbar = () => {
           </svg>
         </div>
 
-        <div className="flex justify-between hover:text-blue-900">
+        <div className="flex justify-between">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

@@ -11,7 +11,7 @@
 - [] Implement product details page with detailed information and images.
 - [] Add product filtering and sorting functionality.
 - [] Choose and integrate an authentication solution (Firebase, Auth0, etc.).
-- [] Implement user registration and login functionality.
+- [x] Implement user registration and login functionality.
 - [] Persist user data and manage authentication state.
 - [] Implement a user profile page.
 - [] Design and implement a shopping cart component for adding and removing products.

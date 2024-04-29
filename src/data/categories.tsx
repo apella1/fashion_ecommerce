@@ -1,44 +1,42 @@
-export const categories = [
+import { FiShoppingBag } from "react-icons/fi";
+import {
+  MdIron,
+  MdOutlinePhoneAndroid,
+  MdSportsBasketball,
+} from "react-icons/md";
+import { GiAmpleDress } from "react-icons/gi";
+
+interface Category {
+  name: string;
+  link: string;
+  icon: JSX.Element;
+}
+export const categories: Category[] = [
   {
     name: "Supermarket",
     link: "/supermarket",
+    icon: <FiShoppingBag />,
   },
   {
     name: "Phones",
     link: "/phones",
+    icon: <MdOutlinePhoneAndroid />,
   },
   {
     name: "Sports Equipment",
 
     link: "/sports-equipment",
+    icon: <MdSportsBasketball />,
   },
   {
     name: "Fashion",
 
     link: "/fashion",
-  },
-  {
-    name: "Game",
-    link: "/game",
-  },
-  {
-    name: "Baby Products",
-    link: "/baby-products",
+    icon: <GiAmpleDress />,
   },
   {
     name: "Appliances",
     link: "/appliances",
-  },
-  {
-    name: "Health and Beauty",
-    link: "/health-and-beauty",
-  },
-  {
-    name: "Computing and TV",
-    link: "/computing",
-  },
-  {
-    name: "Other Categories",
-    link: "/other-categories",
+    icon: <MdIron />,
   },
 ];
