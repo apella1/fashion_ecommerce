@@ -4,7 +4,7 @@ import { FaRegCircleUser } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-8 py-4">
+    <nav className="flex items-center justify-between px-8 py-5">
       <a href="/" className="font-montserrat text-3xl font-semibold">
         FE.<span className="text-gray-300">shop</span>
       </a>
