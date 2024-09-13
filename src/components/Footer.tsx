@@ -1,11 +1,10 @@
 export default function Footer() {
   return (
-    <footer className="section-x-padding flex justify-between bg-gray-800 py-8 font-montserrat text-sm text-white lg:py-16">
+    <footer className="section-x-padding flex justify-between bg-gray-200 py-8 font-montserrat text-sm text-black lg:py-16">
       <div className="col space-y-2">
-        <a href="/" className="text-xl font-medium">
-          eShop
+        <a href="/" className="font-montserrat text-3xl font-semibold">
+          FE.<span className="text-gray-300">shop</span>
         </a>
-        <div></div>
       </div>
       <div className="col space-y-3">
         <h2 className="text-lg font-semibold">Help</h2>
