@@ -7,7 +7,7 @@ export default function ReviewCard() {
       <div>
         <FaRegCircleUser className="text-3xl" />
       </div>
-      <div className="flex flex-col space-y-1 text-xs">
+      <div className="flex flex-col space-y-1 text-sm">
         <div className="flex items-center space-x-2 font-medium">
           <p>Helen M.</p>
           <p className="text-gray-500">Yesterday</p>

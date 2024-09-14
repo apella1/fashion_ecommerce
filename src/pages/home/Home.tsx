@@ -1,11 +1,11 @@
-import ProductCard from "../../components/ProductCard";
+import ProductDetailsCard from "../../components/ProductDetailsCard";
 import MainLayout from "../../layouts/MainLayout";
 
 const Home = () => {
   return (
     <MainLayout>
       <div className="section-x-padding">Home</div>
-      <ProductCard />
+      <ProductDetailsCard />
     </MainLayout>
   );
 };

@@ -16,7 +16,7 @@
 }
 
 .section-x-padding {
-  @apply px-8 md:px-10 lg:px-12 xl:px-32 2xl:px-44;
+  @apply px-8;
 }
 
 .btn {
